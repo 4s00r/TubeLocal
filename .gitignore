@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# App data (keep empty folders via .gitkeep)
+downloads/*
+!downloads/.gitkeep
+data/*
+!data/.gitkeep
+*.db
+*.cookies.txt
+youtube.cookies.txt
+
+# Downloaded / media artifacts (never commit)
+*.mp4
+*.webm
+*.mkv
+*.m4a
+*.mp3
+*.opus
+*.part
+*.ytdl
+*.temp
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
